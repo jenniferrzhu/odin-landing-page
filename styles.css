@@ -61,6 +61,15 @@ ul {
 
 .boxes {
     display: flex;
-    margin: 100px;
+    margin: 50px 200px; 
     gap: 5px;
 }
+
+.section3 {
+    display: flex;
+    margin: 50px;
+}
+
+.quote {
+    padding: 200px;
+} 
