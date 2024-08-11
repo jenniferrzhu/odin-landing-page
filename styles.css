@@ -39,11 +39,13 @@ ul {
     justify-content: space-between;
     align-items: center;
     gap: 32px;
-    padding-top: 64px;
-    padding-bottom: 64px;
+    /* padding-top: 64px;
+    padding-bottom: 64px; */
+    padding: 64px 200px;
     background-color: #1F2937;
-    color: white; 
+    color: white;  
 }
+ 
 
 .section1 img {
     width: 300px;
@@ -56,6 +58,7 @@ ul {
 
 .section2 {
     padding-top: 20px;
+    padding-bottom: 20px;
     text-align: center;
 }
 
@@ -65,11 +68,23 @@ ul {
     gap: 5px;
 }
 
+.info img{
+    width: 200px;
+    border-radius: 10px;
+    border: 2px solid #1F2937;
+}
+
 .section3 {
-    display: flex;
-    margin: 50px;
+    padding: 100px 250px;
+    background-color: rgb(220, 220, 220);
 }
 
 .quote {
-    padding: 200px;
+    color: #1F2937;
+    font-style: italic; 
+    font-size: 25px;
 } 
+
+.citation {
+    text-align: right;
+}
